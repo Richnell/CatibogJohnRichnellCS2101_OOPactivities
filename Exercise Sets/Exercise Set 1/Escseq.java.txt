@@ -1,0 +1,18 @@
+public class Escseq {
+    public static void main(String[] args) {
+        int start = 7;
+        int end = 70;
+
+        int count = 0;
+
+        for (int i = start; i <= end; i += 7) {
+            if (count % 2 == 0) {
+                System.out.println(i);
+            } else {
+                System.out.println("\t" + i);
+            }
+
+            count++;
+        }
+    }
+}
