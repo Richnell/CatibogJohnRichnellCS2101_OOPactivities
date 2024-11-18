@@ -1,3 +1,5 @@
+package Artist;
+
 enum WritingStyle {
     FICTION,
     NONFICTION,
@@ -25,6 +27,6 @@ class Writer extends Artist {
     public void displayInfo() {
         System.out.println("== Writer Info ==");
         super.displayInfo();
-        System.out.println("WritingStyle: " + writingStyle);
+        System.out.println("Writing Style: " + writingStyle);
     }
 }
