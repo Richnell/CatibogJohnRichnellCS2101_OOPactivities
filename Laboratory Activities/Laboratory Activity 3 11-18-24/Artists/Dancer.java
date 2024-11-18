@@ -1,5 +1,3 @@
-package Artist;
-
 enum DanceStyle {
     BALLET,
     HIPHOP,
