@@ -1,5 +1,3 @@
-package Artist;
-
 enum WritingStyle {
     FICTION,
     NONFICTION,
