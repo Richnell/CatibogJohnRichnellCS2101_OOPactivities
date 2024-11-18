@@ -1,6 +1,6 @@
 public class ArtistDemo {
     public static void main(String[] args) {
-        Artist artist = new Artist(" Taylor Swift", "American", 34, "Music");
+        Artist artist = new Artist("Taylor Swift", "American", 34, "Music");
         artist.displayInfo();
         System.out.println();
         
